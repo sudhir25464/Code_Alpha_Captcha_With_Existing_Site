@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&family=Ubuntu&display=swap');
+*{
+
+ 
+    font-family: 'poppins', sans-serif;
+    font-family: 'merienda', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.txt{
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 123, 0);
+}
+.txt .typer{
+    color: black;
+}
+.text-background{
+background-color: white;
+}
+.img-background{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+   
+   
+}
+.img-background img{
+  
+    max-width: 430px;
+    height:430px;
+  
+  
+   
+}
+.img-background{
+    background-color:white;
+}
+.txt-script{
+    color: blueviolet;
+    font-family:Roman;
+}
+.icon i{
+     font-size: 20px;
+    color: blue;
+    padding: 2px 8px;
+}
+.icon a{
+    text-decoration: none;
+}
+.btn{
+    border-radius:40px;
+    font-size: 16px;
+    color:  rgb(15, 18, 235);
+     font-weight: bold;
+     background-color: rgb(255, 187, 15);
+   
+    border:  0.5px solid rgba(51, 51, 193, 0.664);
+
+}
+.btn a{
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: rgb(215, 159, 18);
+    transition:(10px);
+}
+.typer {
+ width: 10ch;
+ overflow: hidden;
+ animation:typing 3.5s steps(15) infinite alternate-reverse;
+    white-space: nowrap;
+ 
+}
+@keyframes typing{
+    from{ width: 0ch;}
+    to{ width: 15ch;}  
+
+}
+
+@media(( min-width:482px)and (max-width:768px)){
+    .text-background{
+        color: blueviolet;
+       
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        margin: auto;
+        border:0.01px solid rgba(192, 188, 214, 0.217);
+
+        border:0.01px solid rgba(201, 43, 43, 0.651);
+    }
+    .img-background{
+        border: 0.2px solid rgb(208, 208, 249);
+
+    }
+}
+
+@media(max-width:481px){
+    .img-background img{
+        max-width: 330px;
+        height:330px;
+       
+    }
+    .img-background{
+           border: 0.2px solid rgb(208, 208, 249);
+    }
+    .text-background{
+        border: 0.2px solid rgb(208, 208, 249);
+
+    }
+}

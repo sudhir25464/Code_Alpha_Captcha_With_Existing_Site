@@ -1,0 +1,48 @@
+.bg{
+    background-color:white;
+    border-bottom: 0.01px solid rgba(0, 0, 0, 0.171);
+}
+.nav-link{
+    font-weight: bold;
+    color: rgb(131, 31, 231);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+
+    
+}
+
+
+.nav-link:hover{
+    color: rgb(203, 203, 68);
+}
+.navbar-brand {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px ;
+    font-weight: bold;
+    color: rgba(40, 49, 171, 0.817);
+}
+.sticky{
+        position: fixed;
+        top:0;
+      
+        width: 100%;
+}
+@media(max-width:990px){
+    .navbar-collapse{
+        margin-top: 4px;
+        background-color: rgba(228, 222, 222, 0.836);
+
+    }
+    .navbar-collapse li{
+        text-align: center;
+    }
+    .joinbtn{
+        display: none;
+    }
+}
+
+@media(max-width:97vh){
+    .joinbtn{
+        display: none;
+    }
+}

@@ -1,0 +1,235 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+.ab{
+    color: red;
+}
+.about-Text{
+    color: blueviolet;
+}
+.img-div img{
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+
+}
+.img-div img:hover{
+    transform: scale(1.03);
+    overflow: none;
+}
+.about-section-bg{
+  user-select: none;
+    background-color: rgba(222, 204, 214, 0.432);
+}
+.about-Text{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bg-txt{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: 1.1px;
+    font-size: 20px;
+}
+@media (max-width:768px){
+  .about-Text{
+    text-align: center;
+  }
+}
+
+/*  skills section styling code */
+
+
+.skills-section {
+    background-color: #cae34cc9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(83, 96, 232, 0.2);
+    text-align: center;
+  }
+  
+  .skill-card {
+    margin: 12px 7px;
+    display: inline-block;
+    padding: 15px;
+    border: 1px solid #2982e882;
+    background-color: rgb(35, 230, 248);
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+  }
+ .bg-1{
+  background-color: rgb(132, 126, 127);
+ }
+  
+  .skill-card:hover {
+    transform: scale(1.2);
+    
+  }
+  .skill-card h3:hover{
+    color: rgb(37, 101, 241);
+  }
+  
+  .skill-icon {
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    margin: 0 auto 10px;
+  }
+  /*
+  .c { background-image: url('c-icon.png'); }
+  .cpp { background-image: url('cpp-icon.png'); }
+  .java { background-image: url('java-icon.png'); }
+  .react { background-image: url('react-icon.png'); }
+  */
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .skill-txt{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: blue;
+    font-size: 25px;
+  }
+  .percentage{
+    color: blue;
+    font-weight: bold;
+  }
+  .skill-card h3{
+    color: rgb(21, 31, 114);
+  }
+  
+  
+/*  footer section styling code */
+.footer-bg{
+    background-color: rgba(38, 25, 218, 0.728);
+
+}
+.footer-p{
+    color: rgb(39, 7, 7);
+
+    font-size: 16px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+/*  Contact  section start styling code */
+
+.contact-main-bg{
+  background-color:aliceblue;
+  
+
+}
+.conatct-div{
+  background-color: rgba(202, 178, 178, 0.76);
+  border-radius: 10px;
+  color: blue;
+
+}
+.get-in-touch{
+  color: rgb(26, 120, 243);
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.contact-summarry{
+  color: rgb(6, 111, 130);
+}
+.conatct-div:hover{
+
+
+    box-shadow: 2px  2px rgba(0, 0, 255, 0.308);
+    transform: scale(1.01);
+    overflow: none;
+
+}
+.conatct-div h6{
+  overflow: hidden;
+}
+.border{
+  border-radius: 20px;
+  box-shadow: 5px 3px 3px rgba(65, 65, 236, 0.194);
+}
+.contact-form{
+  border-radius: 10px;
+  /* border: 1px solid rgba(0, 0, 255, 0.354); */
+  background-color: rgba(250, 235, 215, 0.58);
+}
+.contact-form:hover{
+  border: 1.3px solid rgba(0, 128, 0, 0.368);
+}
+
+.contact-form input{
+margin: 6px 2px;
+padding: 20px;
+
+}
+.contact-f-h{
+  color: gray;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.form-submit-btn{
+  background-color: rgb(98, 244, 57);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600;
+  color: rgba(31, 31, 252, 0.849);
+  border: none;
+  border-radius: 7px ;
+}
+.form-submit-btn:hover{
+  background-color: aqua;
+
+}
+@media (max-width:768px){
+  .contact-form input{
+    margin: 6px 2px;
+    padding: 17px;
+    
+  }
+  .contact-f-h{
+    text-align: center;
+  }
+}
+
+/*  Captcha styling code */
+
+.capcha-bg{
+
+ align-items: center;
+ align-items: center;
+ justify-content: center;
+}
+.resetbutton{
+  background-color: blue;
+ 
+  border: none;
+  border-radius: 5px;
+  color: white;
+ 
+}
+.bb{
+ border:  2px solid red;
+ border-radius: 5px;
+ color: blue;
+ font-size: 18px;
+ font-weight: bold;
+ font-style: oblique;
+ text-decoration-line: line-through;
+}
+@media(max-width:991px){
+  .resetbutton{
+    margin-top: 17px;
+    margin-left: 8px;
+  }
+}
